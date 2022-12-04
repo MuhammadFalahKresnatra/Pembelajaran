@@ -1,0 +1,40 @@
+.carousel-item img{
+   margin: auto;
+   width: 350px;
+   height: 200px;
+}
+
+
+@media(min-width: 560px){
+    .carousel-item img{
+        margin: auto;
+        width: 80vh;
+        height: 400px;
+    }
+}
+
+.card img{
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.card-body{
+    margin-left: 5px;
+}
+
+@media(min-width: 560px){
+    .card img{
+        height: 170px;
+        width: 250px;
+        margin-left: 18px;
+    }
+
+    .card-body{
+        margin-left: 5px;
+    }
+}
+
+#kontak{
+    margin-top: 80px;
+}

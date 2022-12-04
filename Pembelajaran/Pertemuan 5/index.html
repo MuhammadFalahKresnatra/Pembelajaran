@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Apa?</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light sticky-lg-top">
+            <div class="container-fluid">
+                <img src="images/logo falah 2.jpg" width="120"alt="" ></a>
+            
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+              <li><a class="nav-link active" href="#">Home</a></li>
+              <li><a class="nav-link" href="#kontak">Kontak</a></li>
+              <li><a class="nav-link" href="#produk">Produk</a></li>
+              <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Sejarah</a></li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+        
+        <!-- Caraousel -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators ">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" ></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/coklat.jpg" class="d-block  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/stroberi.png" class="d-block  " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/vanila.png" class="d-block " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/permenkaret.png" class="d-block " alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Tulisan Harga -->
+
+          <div class="container text-center bg-dark lead text-light mt-5 mb-5">
+            <h2>Daftar Harga</h2>
+            <p>Harga Spesial Hari Kemerdekaan</p>
+          </div>
+
+          <!-- Produk -->
+
+        <div class="container mb-5" id="produk">
+          <div class="row">
+            <div class="col-lg-3">
+            <div class="card border-0" style="width: 18rem;">
+              <h5 class="card-title text-center">Tango Coklat</h5>
+              <img src="images/coklat.jpg" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <h5 class="card-title">Rp. 25.000</h5> <br>
+                <a href="beli.html" class="btn btn-outline-primary">Beli !</a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card border-0" style="width: 18rem;">
+                <h5 class="card-title text-center">Tango Strawberry</h5>
+                <img src="images/stroberi.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                  <h5 class="card-title">Rp. 15.000</h5> <br>
+                  <a href="beli.html" class="btn btn-outline-primary">Beli !</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card border-0" style="width: 18rem;">
+                  <h5 class="card-title text-center">Tango Vanila</h5>
+                  <img src="images/vanila.png" class="card-img-top">
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <h5 class="card-title">Rp. 19.000</h5> <br>
+                    <a href="beli.html" class="btn btn-outline-primary">Beli !</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card border-0" style="width: 18rem;">
+                    <h5 class="card-title text-center">Tango BubleGum</h5>
+                    <img src="images/permenkaret.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                      <h5 class="card-title">Rp. 20.000</h5> <br>
+                      <a href="beli.html" class="btn btn-outline-primary">Beli !</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Kotak Saran  -->
+
+        <div class="container text-center lead mt-5 mb-5">
+          <h4>Kritik Dan Saran Anda</h4>
+        </div>
+
+        <div class="container">
+          <form action="">
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Masukkan Email Anda!" >
+                <div class="form-text">Kami tidak akan menyebarkan email anda </div>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" cols="20" rows="5" placeholder="Kritik & Saran"></textarea>
+                <a href="saran.html" class="btn btn-primary mt-3">Kirim</a>
+              </div>
+            </form>
+        </div>
+
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sejarah Tango</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Tango Wafer Renyah merupakan sebuah produk wafer yang diproduksi oleh PT. Ultra Prima Abadi sejak bulan Desember 1995. 
+                Wafer ini terdiri dari empat lapis wafer dengan krim ditengahnya. Tango Wafer Renyah masuk kedalam pasar industri makanan ringan di Indonesia 
+                dengan 3 varian rasa Cokelat, Susu Vanila, dan Choco Hazelnut. 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+
+
+
+
+        <!-- Footer  -->
+
+        <div class="jumbotron jumbotron-fluid bg-dark text-light " id="kontak">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 mt-2">
+                <strong> MAS PALAH </strong> <br> 
+                  <br> Sidoarjo Jawa Timur 
+                  <br> Indonesia 61252 
+                  <br> <img class="m-auto" src="images/wa.png" width="50" alt=""> 08122112334
+                  <br> <img class="m-auto ms-1" src="images/instagram.jpg " width="40" alt=""> @palah.tra
+              </div>
+              <div class="col-lg-4 mt-2">
+                <p> <strong> Sitemap </strong> 
+                  <br> <br> About  
+                  <br> Produk </p>
+              </div>
+              <div class="col-lg-4 mt-2">
+                <p> <strong> Peta Lokasi </strong> 
+                  <br> <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.325529065611!2d112.70639831432251!3d-7.429182375246481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd955837944f3acc4!2sPark%20Royal%20Regency%20J2%2F22!5e0!3m2!1sid!2sid!4v1660618176358!5m2!1sid!2sid" width="350" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        
+
+        <div class="row text-center">
+          <div class="text-light">
+            <hr class="text-light"> <h6> ⓒ Copyright Falah 2022 </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
